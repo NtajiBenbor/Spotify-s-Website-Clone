@@ -1,6 +1,6 @@
-# A Clone Of Spotify Website- Landing page & Premium Page Respectively
+# A Clone Of Spotify's Website- Landing page & Premium Page Respectively
 
-This is my attempt at Cloning a few web pages of spotify's website. 
+This is my attempt at reproducing a few web pages of spotify's website. 
 
 ## Table of contents
 
@@ -18,7 +18,7 @@ This is my attempt at Cloning a few web pages of spotify's website.
 
 ## Overview
 
-The task was to recrate the landing pages and the premuium pages as closeto the original as i could, using just HTML and CSS alone. This document provides a detailed explanation of methodology and technologies used at different points; from inception to finalization of this project in order to achieve this end-result.
+The task was to reproduce the landing pages and the premuium pages to be as close to the original as possible, using just HTML and CSS alone. This document provides a detailed explanation of methodology and technologies used at different points; from inception to finalization of this project in order to achieve this end-result.
 
 ### Screenshots
 
