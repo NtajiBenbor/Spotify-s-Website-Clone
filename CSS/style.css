@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url("../font/GothamBold.ttf");
+    font-family: GothamBold;
+}
+
+html{
+    font-family: GothamBold;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    font-family: GothamBold;
+
+}
+
+.header{
+    background: #000000;
+    color: #ffffff;
+    height: 75px;
+}
+
+.header-img, .ftr-logo{
+    float: left;
+    height: 40px;
+    width:120px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0 0 50px;
+    
+}
+
+.nav-wrapper-main{
+    float: right;
+}
+
+.nav-wrapper{
+    color: #ffffff;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 20px 5px 0px ;
+    font-weight: bold;
+   
+
+}
+
+.hero{
+    background-image: url("../images/listen 2.0.png");
+    background-size: cover;
+    height: 650px;
+    color: #ffffff;
+
+}
+
+.btn{
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background:  #1ed760;
+    color: #2d46b9;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    
+
+}
+
+.hero-txt-btn{
+    padding-top: 100px;
+    color: #1ed760;
+    padding-right: 100px;
+   
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+.btn:hover{
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+  }
+  @-webkit-keyframes breathing {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      25% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+      50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      75% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+    @keyframes breathing {
+      0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+      25% {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+      50% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+      75% {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+
+.footer-main{
+      background: #000000;
+      color: #ffffff;
+  
+  }
+  
+.flex-wrapper{
+    
+     width: 900px;
+     padding-right: 50px;
+  }
+  
+.footer-flex{
+      display: flex;
+      justify-content: space-around ;
+      margin: 0 auto 0 auto;
+      width: 850px;
+      height: 400px;
+      text-align: justify;
+      line-height: 45px;
+      padding-top:50px;
+    
+    
+  }
+  
+  .ash{
+      color: gray;
+      font-weight: 600;
+  }
+  
+  
+  
+  .ftr-end{
+      display:flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin: 0 auto 0 auto;
+      align-items: start;
+      width: 600px;
+      padding: 25px 11px;
+      font-size: x-small;
+  }
