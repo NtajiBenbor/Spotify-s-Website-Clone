@@ -1,6 +1,6 @@
 # A Clone Of Spotify's Website- Landing page & Premium Page Respectively
 
-This is my attempt at reproducing a few web pages of spotify's website. 
+This is my attempt at reproducing a few web pages from Spotify's website. 
 
 ## Table of contents
 
@@ -18,11 +18,11 @@ This is my attempt at reproducing a few web pages of spotify's website.
 
 ## Overview
 
-The task was to reproduce the landing pages and the premuium pages to be as close to the original as possible, using just HTML and CSS alone. This document provides a detailed explanation of methodology and technologies used at different points; from inception to finalization of this project in order to achieve this end-result.
+The task was to reproduce the landing pages and the premium pages to be as close to the original as possible, using just HTML and CSS alone. This document provides a detailed explanation of the methodology and technologies used at different points; from inception to finalization of this project in order to achieve this end result.
 
 ### Screenshots
 
-![Screenshot 1](./images/Screenshot-1.png)
+![Screenshot 1](./toenshot-1.png)
 ![Screenshot 2](./images/Screenshot-2.png)
 
 
@@ -30,10 +30,12 @@ The task was to reproduce the landing pages and the premuium pages to be as clos
 
 -None
 
-## My process
+## 
+I started by laying the foundation of the website using HTML, and as I progressed, I incorporated CSS to style the web pages. Initially, I focused on creating the header and navbar and establishing their connections. Subsequently, I designed the buttons and the middle section area. For the footer, I utilized the CSS Flexbox property to arrange the links and later positioned the social media links using Flexbox as well.
 
-I began by using HTML to build the foundation of the website before progressively incorporating CSS to provide styling to the web pages.Prior to developing the middle section area and designing the buttons for it, I first created the header and navbar and added the connections to them.The links were then placed down the footer using the CSS flexbox property, which I then used to create the footer area.The social media links were then positioned in the footer using Flexbox as well.The second page's first portion was created using HTML, and the buttons in this section were animated using CSS animation attributes.
-I then went on to make the page's second portion. Here, i created the second half of the page, which included the subscription cards for the various products, I designed these cards using CSS Flexbox. I then reused the earlier code for the footer here and made a repository on Github for this project.   
+Moving on to the second page, I began by crafting its first portion using HTML. The buttons in this section were brought to life through CSS animation attributes. Afterward, I proceeded to work on the second half of the page, which included designing subscription cards for different products. To achieve this, I employed CSS Flexbox once again. To maintain consistency, I reused the footer code from the previous page.
+
+Lastly, I took the project to Github, creating a repository for easier management and collaboration.   
 
 
 ### Built with
@@ -43,9 +45,9 @@ I then went on to make the page's second portion. Here, i created the second hal
 
 ### What I learned
 
-- How to postion Background images.
+- How to position Background images.
 - How to use CSS Transition Properties.
-- How tto use Flexbox to position Navbar Items.
+- How to use Flexbox to position Navbar Items.
 - How to use the align Items properties, while using flexbox.
 
 
@@ -58,4 +60,4 @@ I then went on to make the page's second portion. Here, i created the second hal
 
 ## Acknowledgments
 
-I want to thank myself for sticking through this and finally finishing it. It is a testement of my will and determination to become a software developer. Thank you for taking these small baby steps.
+I want to thank myself for sticking through this and finally finishing it. It is a testament to my will and determination to become a software developer. Thank you for taking these small baby steps.
